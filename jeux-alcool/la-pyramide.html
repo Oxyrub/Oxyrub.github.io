@@ -26,6 +26,14 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .main-content {
+        margin: 0 2rem;
+    }
+
+    .mini-game-objectiv {
+        margin-left: 1rem;
+    }
 </style>
 
 <body>
@@ -41,103 +49,193 @@
                     </ul>
                 </div>
             </div>
-            <h5>Préparation</h5>
-            <ul>
-                <li>Tous les joueurs se disposent en cercle et désignent un maître du jeu.</li>
-                <li>Ce maître du jeu sera chargé de tirer les cartes pour les autres joueurs pour la phase 1.</li>
-                <li>Pour éviter la triche il est demandé au maître du jeu de dévoiler les cartes en tirant du coté lui
-                    étant opposé.</li>
-            </ul>
-            <h5>Phase 1</h5>
-            <ul>
-                <li>La phase 1 est découpé en 4 mini-jeux.</li>
-                <li>Pour chaque mini-jeux, c'est le joueur le plus jeune qui commence.</li>
-                <li>Les joueurs gardent les cartes qui leur ont été tirés (par le maître du jeu) à chaque mini-jeux car
-                    elles seront utilisées pour la Phase 2.</li>
-            </ul>
+            <div class="main-content">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Préparation</span>
+                        <ul>
+                            <li>Tous les joueurs se disposent en cercle et désignent un maître du jeu.</li>
+                            <li>Ce maître du jeu sera chargé de tirer les cartes pour les autres joueurs pour la phase
+                                1.
+                            </li>
+                            <li>Pour éviter la triche il est demandé au maître du jeu de dévoiler les cartes en tirant
+                                du
+                                coté
+                                lui
+                                étant opposé.</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h6>Mini jeu #1 - rouge ou noir</h6>
-            <p>Objectif</p>
-            <p>Le maitre demande a chaque joueurs, un par un, de deviner la couleur (la vrai couleur, c'est à dire
-                rouge ou noir) de la prochaine carte qu'il s'apprête a tirer.</p>
-            <p>Résultats possibles</p>
-            <ul>
-                <li>Si la prédiction est juste, alors le joueur peut donner une gorgée à un autre joueur.</li>
-                <li>Si la prédiction est fausse, alors le joueur doit boire une gorgée.</li>
-            </ul>
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Phase 1</span>
+                        <ul>
+                            <li>La phase 1 est découpé en 4 mini-jeux.</li>
+                            <li>Pour chaque mini-jeux, c'est le joueur le plus jeune qui commence.</li>
+                            <li>Les joueurs gardent les cartes qui leur ont été tirés (par le maître du jeu) à chaque
+                                mini-jeux car
+                                elles seront utilisées pour la Phase 2.</li>
+                        </ul>
 
-            <h6>Mini jeu #2 - plus ou moins</h6>
-            <p>Objectif</p>
-            <p>Le maitre demande a chaque joueurs, un par un, de deviner si la valeur de la prochaine carte tirée sera
-                plus grande ou plus faible que la carte que le joueur possède.</p>
-            <p>Résultats possibles</p>
-            <ul>
-                <li>Si la prédiction est juste, alors le joueur peut donner deux gorgées à un autre joueur, ou les
-                    répartir entre plusieurs.</li>
-                <li>Si la prédiction est fausse, alors le joueur doit boire deux gorgées.</li>
-            </ul>
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Mini jeu #1 - rouge ou noir</span>
+                                <b>Objectif</b>
+                                <p>Le maitre demande a chaque joueurs, un par un, de deviner la couleur (la vrai
+                                    couleur, c'est
+                                    à
+                                    dire
+                                    rouge ou noir) de la prochaine carte qu'il s'apprête a tirer.</p>
+                                </br>
+                                <b>Résultats possibles</b>
+                                <ul>
+                                    <li>Si la prédiction est juste, alors le joueur peut donner une gorgée à un autre
+                                        joueur.
+                                    </li>
+                                    <li>Si la prédiction est fausse, alors le joueur doit boire une gorgée.</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <h6>Mini jeu #3 - intérieur ou extérieur</h6>
-            <p>Objectif</p>
-            <p>Le maitre demande a chaque joueurs, un par un, de deviner si la valeur de la prochaine carte se trouve
-                entre ou en dehors les deux valeurs que possède le jouer avec ses cartes.</p>
-            <p>Résultats possibles</p>
-            <ul>
-                <li>Si la prédiction est juste, alors le joueur peut donner trois gorgées à un autre joueur, ou les
-                    répartir
-                    entre plusieurs.</li>
-                <li>Si la prédiction est fausse, alors le joueur doit boire trois gorgées.</li>
-            </ul>
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Mini jeu #2 - plus ou moins</span>
+                                <b>Objectif</b>
+                                <p>Le maitre demande a chaque joueurs, un par un, de deviner si la valeur de la
+                                    prochaine carte
+                                    tirée sera
+                                    plus grande ou plus faible que la carte que le joueur possède.</p>
+                                </br>
+                                <b>Résultats possibles</b>
+                                <ul>
+                                    <li>Si la prédiction est juste, alors le joueur peut donner deux gorgées à un autre
+                                        joueur,
+                                        ou
+                                        les
+                                        répartir entre plusieurs.</li>
+                                    <li>Si la prédiction est fausse, alors le joueur doit boire deux gorgées.</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <h6>Mini jeu #4 - la couleur</h6>
-            <p>Objectif</p>
-            <p>Le maitre demande a chaque joueurs, un par un, de deviner la couleur de la prochaine carte (coeurs,
-                piques, carreaux, trèfles)</p>
-            <p>Résultats possibles</p>
-            <ul>
-                <li>Si la prédiction est juste, alors le joueur peut donner quatre gorgées à un autre joueur, ou les
-                    répartir
-                    entre plusieurs.</li>
-                <li>Si la prédiction est fausse, alors le joueur doit boire quatre gorgées.</li>
-            </ul>
+                        <div class="card ">
+                            <div class="card-content">
+                                <span class="card-title">Mini jeu #3 - intérieur ou extérieur</span>
+                                <b>Objectif</b>
+                                <p>Le maitre demande a chaque joueurs, un par un, de deviner si la valeur de la
+                                    prochaine carte
+                                    se
+                                    trouve
+                                    entre ou en dehors les deux valeurs que possède le jouer avec ses cartes.</p>
+                                </br>
+                                <b>Résultats possibles</b>
+                                <ul>
+                                    <li>Si la prédiction est juste, alors le joueur peut donner trois gorgées à un autre
+                                        joueur,
+                                        ou
+                                        les
+                                        répartir
+                                        entre plusieurs.</li>
+                                    <li>Si la prédiction est fausse, alors le joueur doit boire trois gorgées.</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <h5>Inter-Phase</h5>
-            <ul>
-                <li>Tous les joueurs ont 15 secondes pour regarder leur cartes (qui doit être au nombres de 4), les
-                    retenir et les placés devant eux face cachée.</li>
-                <li>Attention ! Les joueurs devront être capable de montrer la bonne carte d'un seul coup !</li>
-            </ul>
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Mini jeu #4 - la couleur</span>
+                                <b>Objectif</b>
+                                <p>Le maitre demande a chaque joueurs, un par un, de deviner la couleur de la prochaine
+                                    carte
+                                    (coeurs,
+                                    piques, carreaux, trèfles)</p>
+                                </br>
+                                <b>Résultats possibles</b>
+                                <ul>
+                                    <li>Si la prédiction est juste, alors le joueur peut donner quatre gorgées à un
+                                        autre
+                                        joueur, ou
+                                        les
+                                        répartir
+                                        entre plusieurs.</li>
+                                    <li>Si la prédiction est fausse, alors le joueur doit boire quatre gorgées.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <h5>Phase 2</h5>
-            <ul>
-                <li>La fameuse pyramide, le maitre du jeu doit construire une pyramide au milieu de tous les
-                    joueurs avec les cartes du paquet qu'il lui reste <b>face caché</b>. Une pyramide avec une base de 5
-                    carte est le plus
-                    standard. Vous pouvez faire plus ou moins en fonction de votre motivation.</li>
-            </ul>
-            <h6>Fonctionnement de la pyramide</h6>
-            <ul>
-                <li>On retourne une carte par une carte en partant de la base jusqu'au sommet.</li>
-                <li>Chaque niveau de la pyramide équivaut a un nombre de gorgées (exemple : la base, le premier niveau
-                    -> une gorgée; deuxième niveau -> deux gorgées; etc...)</li>
-                <li>Le sommet de la pyramide équivaut a un cul-sec !</li>
-                <li>Dès qu'une carte est retournée, c'est le moment de donner une/des gorgée(s) à un/des joueur(s). Pour
-                    cela il suffit que la valeur de la carte retournée se trouve dans votre jeu de 4 cartes. (dont vous
-                    vous souvenez) Bien-sûr, il est possible de mentir ;)</li>
-                <li>Lorsque un joueur reçoit une/des gorgée(s) il a le choix entre accepter de boire ou dire que le
-                    joueur qui
-                    lui donne ment. Si vous accepter, vous buvez. Si vous contestez, le joueur qui vous donne la/les
-                    gorgée(s) doit retourné la carte de sont jeu qui a la même valeur que la carte de la pyramide
-                    dernièrement dévoilé. Si la valeur est la même, alors le joueur qui a contesté doit boire le double
-                    des gorgées qui lui sont normalement donné. A l'inverse, si la valeur de la carte n'est pas la même
-                    ou que tout simplement le joueur ne possède pas cette carte alors c'est lui qui boit le double.</li>
-            </ul>
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Inter-Phase</span>
+                        <ul>
+                            <li>Tous les joueurs ont 15 secondes pour regarder leur cartes (qui doit être au nombres de
+                                4), les
+                                retenir et les placés devant eux face cachée.</li>
+                            <li>Attention ! Les joueurs devront être capable de montrer la bonne carte d'un seul coup !
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h5>Phase 3</h5>
-            <ul>
-                <li>Chacun son tour, chaque joueur doit annoncé, puis dévoilé les cartes de sont jeu.</li>
-                <li>Pour chaque carte où il se trompe, c'est 3 gorgées !</li>
-            </ul>
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Phase 2</span>
+                        <ul>
+                            <li>La fameuse pyramide, le maitre du jeu doit construire une pyramide au milieu de tous les
+                                joueurs avec les cartes du paquet qu'il lui reste <b>face caché</b>. Une pyramide avec
+                                une base
+                                de 5
+                                carte est le plus
+                                standard. Vous pouvez faire plus ou moins en fonction de votre motivation.</li>
+                        </ul>
+                        <h6>Fonctionnement de la pyramide</h6>
+                        <ul>
+                            <li>On retourne une carte par une carte en partant de la base jusqu'au sommet.</li>
+                            <li>Chaque niveau de la pyramide équivaut a un nombre de gorgées (exemple : la base, le
+                                premier
+                                niveau
+                                -> une gorgée; deuxième niveau -> deux gorgées; etc...)</li>
+                            <li>Le sommet de la pyramide équivaut a un cul-sec !</li>
+                            <li>Dès qu'une carte est retournée, c'est le moment de donner une/des gorgée(s) à un/des
+                                joueur(s).
+                                Pour
+                                cela il suffit que la valeur de la carte retournée se trouve dans votre jeu de 4 cartes.
+                                (dont
+                                vous
+                                vous souvenez) Bien-sûr, il est possible de mentir ;)</li>
+                            <li>Lorsque un joueur reçoit une/des gorgée(s) il a le choix entre accepter de boire ou dire
+                                que le
+                                joueur qui
+                                lui donne ment. Si vous accepter, vous buvez. Si vous contestez, le joueur qui vous
+                                donne la/les
+                                gorgée(s) doit retourné la carte de sont jeu qui a la même valeur que la carte de la
+                                pyramide
+                                dernièrement dévoilé. Si la valeur est la même, alors le joueur qui a contesté doit
+                                boire le
+                                double
+                                des gorgées qui lui sont normalement donné. A l'inverse, si la valeur de la carte n'est
+                                pas la
+                                même
+                                ou que tout simplement le joueur ne possède pas cette carte alors c'est lui qui boit le
+                                double.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Phase 3</span>
+                        <ul>
+                            <li>Chacun son tour, chaque joueur doit annoncé, puis dévoilé les cartes de sont jeu.</li>
+                            <li>Pour chaque carte où il se trompe, c'est 3 gorgées !</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
